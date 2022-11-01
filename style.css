@@ -1,0 +1,56 @@
+body {
+  background-color: paleturquoise;
+  padding: 5px;
+}
+
+footer, header {
+  background-color: skyblue;
+  width: auto;
+  height: 100px;
+  padding: 5px;
+}
+
+footer p {
+  padding-top: 20px;
+}
+
+ul {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+li {
+  display: inline-block;
+}
+
+a{
+  background-color: dodgerblue;
+  border-style: solid;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+}
+
+table {
+  margin: 20px;
+  background-color: skyblue;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0px;
+  border-color: dodgerblue;
+  border-radius: 5px;
+}
+
+input:active{
+  background-color: dodgerblue;;
+}
